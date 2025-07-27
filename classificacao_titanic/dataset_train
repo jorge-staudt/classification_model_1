@@ -1,0 +1,11 @@
+import kagglehub
+import pandas as pd
+
+
+#path = r"C:\Users\Jorge\Documents\Github\classification_model_1\classificacao_titanic"
+# Baixa o dataset direto na pasta indicada
+#kagglehub.dataset_download("yasserh/titanic-dataset", path=path)
+
+
+df = pd.read_csv(r"C:\Users\Jorge\Documents\Github\classification_model_1\classificacao_titanic\titanic_data_train.csv")
+print(df.head())
